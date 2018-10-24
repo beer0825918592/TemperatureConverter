@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView text=findViewById(R.id.textView2);
                 DecimalFormat df=new DecimalFormat();
                 df.setMaximumFractionDigits(2);
-                String s="                            "+df.format(t.calCtoF());
+                String s=""+df.format(t.calCtoF());
 
                 text.setText(s);
             }
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 DecimalFormat df=new DecimalFormat();
                 df.setMaximumFractionDigits(2);
 
-                String s="                            "+df.format(t.calFtoC());
+                String s=""+df.format(t.calFtoC());
 
                 text.setText(s);
 
